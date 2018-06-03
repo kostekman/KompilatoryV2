@@ -1,6 +1,6 @@
 package agh.edu.koscinsa.test;
 
-import test.test.;
+import test.test.*;
 import test2.test;
 import test3;
 
@@ -10,13 +10,17 @@ private class Test extends ParentTest implements TestInterface, TestInterface2{
     public List<Car> cars;
     Garage garage;
     private byte[] bytes;
-    public Garage garages[];
+    public Garage garages[];//Test
 
-    public Test() {}
+    /* test
+    test
+    test */
 
-    public Test(int counter, Car car) {}
+    public Test() { }
+
+    public Test(int counter, Car car) { }
 
     public void testMethod(){}
 
-    int testMethod2(int counter) {}
+    int testMethod2(int counter) throws Exception {}
 }
